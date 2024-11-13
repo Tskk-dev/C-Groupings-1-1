@@ -5,7 +5,7 @@
 
 
 # How to download:
-- Press code button (big green button that says "Code <>"
+- Press code button (big green button that says "Code <>")
 - Downlaod as zip
 - Unzip 
 
