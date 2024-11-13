@@ -1,4 +1,4 @@
-A compilation of college activities
+# A compilation of college activities
 - Basic Operations
 - If-else and switch statements
 - Loops
