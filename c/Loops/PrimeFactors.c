@@ -24,6 +24,7 @@ int main(){
 // when user inputs char "y/Y"
 
 do {
+    
     printf("Enter a non-negative number: ");
     scanf("%d", &number);
     if (number < 0) {
