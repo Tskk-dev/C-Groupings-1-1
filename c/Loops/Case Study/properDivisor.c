@@ -1,5 +1,11 @@
 #include <stdio.h> 
-int sumOfDivisors(int n){ int sum = 0; printf("Proper divisors of %d are: ", n); for (int i = 1; i < n; i++){ if (n % i == 0) {sum += i; printf("%d ", i);}}printf("\n");return sum;}
+int sumOfDivisors(int n){ int sum = 0; printf("Proper divisors of %d are: ", n); 
+
+for (int i = 1; i < n; i++){ 
+    if (n % i == 0) {
+    sum += i; printf("%d ", i);}}printf("\n");
+    return sum;
+    }
 
 int main()
 {

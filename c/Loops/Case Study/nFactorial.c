@@ -28,7 +28,6 @@ int main() {
         printf("Enter a nonnegative integer: ");
         while (scanf("%d", &n) != 1 || n < 0) {
             printf("Invalid input. Please enter a nonnegative integer: ");
-            +
         }
 
         printf("Factorial of %d is %llu\n", n, factorial(n));
