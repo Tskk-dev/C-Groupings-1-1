@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Code Made by Jasper James Galang
 
 int main(){
     int n1 = 0, n2 = 0, gcd = 0;
