@@ -15,10 +15,8 @@ int main() {
     printf("%d %d %d\n", x, y, z); // Prints the initial values of x, y, and z.
     trace(y, &x, z);               // Passes y by value, x by reference, and z by value.
     printf("%d %d %d\n", x, y, z); // Prints the values after the first call to trace.
-
     trace(x, &z, y);               // Passes x by value, z by reference, and y by value.
     printf("%d %d %d\n", x, y, z); // Prints the values after the second call to trace.
-
     trace(z, &y, x);               // Passes z by value, y by reference, and x by value.
     printf("%d %d %d\n", x, y, z); // Prints the values after the third call to trace.
 
