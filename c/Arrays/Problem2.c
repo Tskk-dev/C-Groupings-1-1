@@ -12,7 +12,7 @@ int main(){
         int matrixB[3][3];
         int arrayC[3];
         
-        printf("\n\nPROBLEM 2: Matrix Algebra Operation\n");
+        printf("\n\nPROBLEM 2 \n");
         printf("Enter 3 integers for ArrayA:\n");
         for (int i = 0; i < 3; i++) {
             scanf("%d", &arrayA[i]);

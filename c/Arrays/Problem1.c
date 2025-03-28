@@ -37,8 +37,8 @@ int main() {
     int mergeArray[10];  // Maximum possible size is 10 if no duplicates.
     int mergeSize = 0;
     
-    printf("PROBLEM 1: Merge Two Arrays with Unique Values\n");
-    printf("Enter 5 integers for ArrayN:\n");
+    printf("PROBLEM 1\n");
+    printf("Enter 5 integers for ArrayA:\n");
     for (int i = 0; i < 5; i++) {
         scanf("%d", &arrayN[i]);
     }
@@ -52,7 +52,7 @@ int main() {
     mergeArrays(arrayN, arrayB, 5, 5, mergeArray, &mergeSize);
     
     // Display the arrays.
-    printf("\nArrayN      : ");
+    printf("\nArrayA      : ");
     for (int i = 0; i < 5; i++) {
         printf("%d ", arrayN[i]);
     }
