@@ -1,7 +1,4 @@
-# A compilation of college activities
-- Basic Operations
-- If-else and switch statements
-- Loops
+# A compilation of college activities from PUP Sta Mesa Prog 1
 
 
 # How to download:
